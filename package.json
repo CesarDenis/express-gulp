@@ -1,0 +1,38 @@
+{
+  "name": "express-gulp",
+  "version": "1.0.0",
+  "description": "A template for Express with Gulp and Browsersync",
+  "author": "Cesar Denis <cesar@cesardenis.com>",
+  "homepage": "https://github.com/CesarDenis/express-gulp#readme",
+  "keywords": [
+    "node",
+    "express",
+    "gulp",
+    "browsersync"
+  ],
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "lint": "eslint src/**/*.js",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CesarDenis/express-gulp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CesarDenis/express-gulp/issues"
+  },
+  "dependencies": {
+    "express": "4.16.2",
+    "winston": "2.4.0"
+  },
+  "devDependencies": {
+    "eslint": "4.11.0",
+    "nodemon": "1.12.1"
+  },
+  "license": "MIT"
+}
