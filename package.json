@@ -15,9 +15,9 @@
     "src"
   ],
   "scripts": {
-    "dev": "nodemon src/index.js",
+    "dev": "concurrently -k -n \"nodemon,Gulp\" -c \"bgBlue,bgGreen\" \"nodemon src/index.js\" \"gulp serve\"",
     "lint": "eslint src/**/*.js",
-    "start": "nodemon src/index.js"
+    "start": "npm run dev"
   },
   "repository": {
     "type": "git",
@@ -37,6 +37,7 @@
     "babel-core": "6.26.0",
     "babel-preset-env": "1.6.1",
     "browser-sync": "^2.2.1",
+    "concurrently": "3.5.1",
     "del": "^3.0.0",
     "eslint": "4.11.0",
     "gulp": "^3.9.0",
