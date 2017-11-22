@@ -58,8 +58,11 @@ typings/
 .env
 
 # Compiled output
-/dist
-/.tmp
+/src/public/fonts
+/src/public/images
+/src/public/scripts
+/src/public/styles
+
 ### macOS ###
 *.DS_Store
 .AppleDouble
