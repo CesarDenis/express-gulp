@@ -22,10 +22,10 @@ npm install
 
 * Running scripts
 
-Action | Usage
----    | ---
-Starting development mode                | `npm run dev`
-Linting code                             | `npm run lint`
+| Action                    | Usage          |
+| ------------------------- | -------------- |
+| Starting development mode | `npm run dev`  |
+| Linting code              | `npm run lint` |
 
 ## Author
 
